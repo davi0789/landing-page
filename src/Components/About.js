@@ -1,7 +1,8 @@
 import React from "react";
-import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackground from "../Assets/about-background.png"; // Cambia a una imagen de fondo oscura
+import AboutBackgroundImage from "../Assets/about-background-image.png"; // Cambia a una imagen relacionada con música
 import { BsFillPlayCircleFill } from "react-icons/bs";
+
 
 const About = () => {
   return (
@@ -15,15 +16,10 @@ const About = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Music Is An Essential Part Of Life
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
-        </p>
-        <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+          Discover new tracks, artists, and genres that resonate with you.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
